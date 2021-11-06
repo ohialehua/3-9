@@ -18,3 +18,44 @@ p {
   line-height: 18px;
   margin: 33px;
 }
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  display: table-row;
+}
+
+th {
+  display: table-cell;
+  text-align: center;
+}
+
+.new-book {
+  margin: 18px auto;
+}
+
+.title-text, .body-text {
+  margin-bottom: 10px;
+}
+
+textarea, input#title {
+  margin: 0;
+  width: 165px;
+  height: 29px;
+}
+
+.create-book {
+  display: block;
+  margin-bottom: 10px;
+}
