@@ -49,6 +49,14 @@ th:last-child {
   margin-bottom: 10px;
 }
 
+.edit {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
 textarea, input#title {
   margin: 0;
   width: 165px;
