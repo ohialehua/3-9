@@ -6,27 +6,21 @@ body, p {
   margin: 33px;
 }
 
+a {
+  color: #333;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+}
+
+.line {
+  pointer-events: none;
+}
+
 table {
   width: 100%;
-  display: table;
-  border-collapse: separate;
-  box-sizing: border-box;
-  text-indent: initial;
-  border-spacing: 2px;
-  border-color: grey;
-}
-
-thead {
-  display: table-header-group;
-}
-
-tr {
-  display: table-row;
-}
-
-th {
-  display: table-cell;
-  text-align: center;
 }
 
 th, tr, td {
