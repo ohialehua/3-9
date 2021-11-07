@@ -71,3 +71,7 @@ textarea, input#title {
 .create-book input {
   padding: 1px 6px;
 }
+
+p#notice {
+  color: green;
+}

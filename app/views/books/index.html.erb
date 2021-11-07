@@ -1,6 +1,6 @@
 <body>
 
-<p id="comment"></p>
+<p id="notice"><%= notice %></p>
 <h1>Books</h1>
 <table>
   <thead>
@@ -26,7 +26,7 @@
 
 <h2 class="new-book">New book</h2>
 
-  <%= form_with model:@book, local:true do |f| %>
+  <%= form_with model: @book, local:true do |f| %>
 
     <div class="title-text">
       <label>Title</label>
