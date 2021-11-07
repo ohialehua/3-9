@@ -10,13 +10,9 @@ a {
   color: #333;
 }
 
-a:hover {
+a:not(.line):hover {
   color: white;
   background-color: black;
-}
-
-.line {
-  pointer-events: none;
 }
 
 table {
