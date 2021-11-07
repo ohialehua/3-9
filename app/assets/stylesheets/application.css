@@ -1,10 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
+body, p {
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -12,14 +6,8 @@ body {
   margin: 33px;
 }
 
-p {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  margin: 33px;
-}
-
 table {
+  width: 100%;
   display: table;
   border-collapse: separate;
   box-sizing: border-box;
@@ -41,6 +29,18 @@ th {
   text-align: center;
 }
 
+th, tr, td {
+  padding: 0 5px 7px 5px;
+}
+
+th:first-child {
+  width: 20%;
+}
+
+th:last-child {
+  width: 33%;
+}
+
 .new-book {
   margin: 18px auto;
 }
@@ -58,4 +58,8 @@ textarea, input#title {
 .create-book {
   display: block;
   margin-bottom: 10px;
+}
+
+.create-book input {
+  padding: 1px 6px;
 }
