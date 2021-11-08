@@ -19,6 +19,12 @@ table {
   width: 100%;
 }
 
+.error-message {
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
 th, tr, td {
   padding: 0 5px 7px 5px;
 }
